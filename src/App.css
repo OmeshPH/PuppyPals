@@ -1,42 +1,49 @@
-#root {
-  max-width: 1280px;
+.App {
+  font-family: sans-serif;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 20px;
+  background-color: #efffff;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.App p {
+  margin: 10px 0;
+  cursor: pointer;
+  color: #00a86b;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App p:hover {
+  opacity: 0.8; /* Add hover effect to dim text slightly */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.featured {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #fff;
 }
 
-.card {
-  padding: 2em;
+.featured h2 {
+  margin-bottom: 10px;
+  color: #00a86b;
 }
 
-.read-the-docs {
-  color: #888;
+.featured ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.featured li {
+  margin-bottom: 5px;
+  color: #00a86b;
+}
+
+.clicked {  /* New class for clicked puppy styles */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
 }
