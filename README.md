@@ -1,1 +1,1 @@
-# PuppyPals
+# PuppyPals project
